@@ -3,9 +3,9 @@
     "version": "1.0.0",
     "description": "Selenium WebDriver tests using Mocha with Mochawesome reports",
     "scripts": {
-    "cobain": "mocha tests --recursive --timeout 60000",
-    "jalanin-mochawesome": "mocha tests --recursive --timeout 60000 --reporter mochawesome",
-    "jalanin-simple-html": "mocha tests --recursive --timeout 60000 --reporter mocha-simple-html-reporter --reporter-options output=report.html"
+    "cobain": "mocha tests/saucedemo-test.js --recursive --timeout 60000",
+    "jalanin-mochawesome": "mocha tests/saucedemo-test.js --recursive --timeout 60000 --reporter mochawesome",
+    "jalanin-simple-html": "mocha tests/saucedemo-test.js --recursive --timeout 60000 --reporter mocha-simple-html-reporter --reporter-options output=report.html"
     },
     "dependencies": {
       "selenium-webdriver": "^4.17.0"
